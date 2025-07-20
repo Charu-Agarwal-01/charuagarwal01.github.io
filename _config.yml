@@ -6,38 +6,26 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+name: Charu Agarwal
+title: Aspiring Data Scientist | Statistics & AI Enthusiast
+email: agarwalcharu2001@gmail.com
+phone: 9001099245
+website: https://charuagarwal01.github.io
+
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+linkedin_username: www.linkedin.com/in/charu-agarwal-99b8851a9
+github_username: https://github.com/charuagarwal01
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+  - title: Medium
+    icon: fab fa-medium
+    url: https://medium.com/@agarwalcharu2001
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,13 +40,19 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  With a master’s in mathematics from IIT Patna and a deep love for numbers, I’ve always been fascinated by patterns, logic, and solving complex problems. My academic journey gave me a strong foundation in statistics, probability, optimization, and linear algebra, all of which naturally led me to the world of data science, machine learning, and artificial intelligence.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  What started as a curiosity about how machines learn has become a passion. I enjoy building intelligent systems that can analyze data, uncover hidden insights, and make impactful predictions. Whether it's training deep learning models for image segmentation or exploring NLP for sentiment analysis, I love turning abstract math into real-world applications.
+
+  My interests lie at the intersection of:
+
+  - Machine Learning and Deep Learning  
+  - Data Analysis and Visualization  
+  - Computer Vision and NLP  
+  - Mathematical Modeling and Optimization  
+
+  I’m constantly learning, experimenting, and sharing what I know through projects, blogs, and dashboards.  
+  My goal is to build meaningful AI solutions that combine theory with practice.
 
 content:
   - title: Projects # Title for the section
