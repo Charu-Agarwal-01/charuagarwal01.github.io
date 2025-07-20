@@ -1,6 +1,6 @@
 # Site
-remote_theme: sproogen/modern-resume-theme
-repository: Charu-Agarwal-01/charuagarwal01.github.io
+theme: modern-resume-theme
+
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
