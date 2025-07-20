@@ -38,7 +38,7 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   With a master’s in mathematics from IIT Patna and a deep love for numbers, I’ve always been fascinated by patterns, logic, and solving complex problems. My academic journey gave me a strong foundation in statistics, probability, optimization, and linear algebra, all of which naturally led me to the world of data science, machine learning, and artificial intelligence.
 
@@ -61,49 +61,76 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+         title: Satellite Image Segmentation using U-Net and VGG U-Net
+        link: https://charuagarwal01.github.io/Harnessing-U-Net-and-Transfer-Learning-for-Satellite-Image-Segmentation/
+        link_text: View Project Page
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub Repository
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/Charu-Agarwal-01/Harnessing-U-Net-and-Transfer-Learning-for-Satellite-Image-Segmentation
+          - title: Medium Blog
+            icon: fas fa-blog
+            url: https://medium.com/@agarwalcharu2001/harnessing-u-net-transfer-learning-for-satellite-image-segmentation-9be693ac314a
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          A deep learning-based semantic segmentation project using U-Net and VGG19 for extracting land cover features from satellite images.
+        description: |
+          This project explores the power of convolutional neural networks for semantic segmentation of high-resolution satellite imagery.
+          I implemented both U-Net and VGG19-based U-Net architectures to identify urban and non-urban regions from aerial tiles.
+          The pipeline involved data preprocessing, patch generation, augmentation, model training, and result visualization.
+          Results showed strong accuracy and generalization due to data augmentation and transfer learning techniques.
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: IIT Patna
+        sub_title: Research Trainee – Survival Analysis and Statistical Modeling
+        caption: July 2023 – June 2024
+        link: https://www.iitp.ac.in
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          One-year academic research project focused on survival analysis using Bayesian methods and real-world datasets.
+        description: |
+          - Conducted advanced statistical modeling using Bayesian approaches for survival and reliability analysis.
+          - Applied techniques to two real-world datasets involving block censoring and hierarchical Bayesian frameworks.
+          - Gained hands-on experience in data preprocessing, exploratory analysis, and implementation in R and Python.
+          - Presented key insights, visualizations, and results as part of thesis evaluation at IIT Patna.
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Indian Institute of Technology (IIT), Patna
+        sub_title: M.Sc. in Mathematics
+        caption: July 2022 – June 2024
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Master's degree with focus on statistics, optimization, probability, and applied mathematics.
+        description: |
+          - Completed a one-year research project on Bayesian modeling and survival analysis.
+          - Gained hands-on experience with R, Python, and LaTeX for academic writing and computation.
+          - CPI: 8.53
+
+      - title: Rajdhani College, University of Delhi
+        sub_title: B.Sc. (Hons.) in Physical Science with Computer Science
+        caption: July 2019 – June 2022
+        quote: >
+          Undergraduate degree with interdisciplinary training in mathematics, physics, and computer science.
+        description: |
+          - Strong foundation in mathematical modeling, programming, and data structures.
+          - CGPA: 9.394 (University Rank: Top 5%)
+  -title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      In addition to being passionate about data science and AI, I enjoy exploring how technology can solve real-world problems. I thrive in collaborative environments and love sharing knowledge through blogs and community engagement.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Skills & Strengths**
+      - Strong analytical and statistical foundation from my mathematics background
+      - Effective communicator and active learner
+      - Experience working on end-to-end data and machine learning projects
+      - Proficient in Python, SQL, Power BI, and machine learning frameworks
+
+      **Interests**
+      - Writing technical blogs on Medium about AI and machine learning
+      - Designing interactive dashboards to communicate data stories
+      - Working on projects in computer vision, NLP, and forecasting
+      - Reading about explainable AI, tech ethics, and innovation in education
 
 # Footer
 footer_show_references: true
