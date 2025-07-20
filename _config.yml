@@ -18,8 +18,8 @@ website: https://charuagarwal01.github.io
 darkmode: false
 
 # Social links
-linkedin_username: www.linkedin.com/in/charu-agarwal-99b8851a9
-github_username: https://github.com/charuagarwal01
+linkedin_username: charu-agarwal-99b8851a9
+github_username: charuagarwal01
 
 # Additional icon links
 additional_links:
@@ -61,7 +61,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-         title: Satellite Image Segmentation using U-Net and VGG U-Net
+        title: Satellite Image Segmentation using U-Net and VGG U-Net
         link: https://charuagarwal01.github.io/Harnessing-U-Net-and-Transfer-Learning-for-Satellite-Image-Segmentation/
         link_text: View Project Page
         additional_links:
@@ -115,7 +115,7 @@ content:
         description: |
           - Strong foundation in mathematical modeling, programming, and data structures.
           - CGPA: 9.394 (University Rank: Top 5%)
-  -title: A Little More About Me
+  - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       In addition to being passionate about data science and AI, I enjoy exploring how technology can solve real-world problems. I thrive in collaborative environments and love sharing knowledge through blogs and community engagement.
