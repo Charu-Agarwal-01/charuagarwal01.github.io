@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><center>Portfolio - About</center></title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .about-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #343a40; /* Solid dark border for avatar look */
+    }
+    .about-text {
+      max-width: 600px;   /* Keeps text within comfortable reading width */
+      margin: 0 auto;     /* Centers the brunlock */
+    }
+    .project-img {
+  width: 100%;          /* Always take full card width */
+  height: 200px;        /* Fixed height for all project images */
+  object-fit: cover;    /* Crops images nicely without stretching */
+}
+
+.btn-pink {
+  background-color: #e83e8c; /* Bootstrap pink */
+  border: none;
+}
+.btn-pink:hover {
+  background-color: #d63384; /* Slightly darker on hover */
+}
+html {
+  scroll-behavior: smooth;
+}
+  </style>
+</head>
+<body>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="py-5 text-center">
+    <div class="container">
+      <!-- Headline -->
+      <h2 class="h1 fw-bold mb-4">About</h2>
+
+      <!-- Profile Image -->
+      <img src="images/about/photo.jpg" alt="Profile" class="about-img mb-4">
+
+      <!-- About Text -->
+      <div class="about-text">
+        <p class="mb-3">
+          Welcome to my portfolio! I am passionate about blending mathematics, data, and technology
+          to build impactful solutions. With strong analytical skills, I thrive on solving
+          challenging problems.
+        </p>
+        <p>
+          I enjoy working on projects that push me to learn and grow. My goal is to collaborate
+          with innovative teams, contribute meaningfully to data-driven work, and keep exploring
+          new opportunities.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- ===== End About Section ===== -->
+
+
+  <!-- ===== Projects Section ===== -->
+<section id="projects" class="py-5 text-center">
+  <div class="container">
+    <!-- Section Heading -->
+    <h2 class="h1 fw-bold mb-5">Projects</h2>
+
+    <!-- Project Cards Row -->
+    <div class="row g-4">
+      
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/projects/sat.png" class="card-img-top project-img" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Satellite Image Segmentation using UNet and Transfer Learning</h5>
+            <p class="card-text flex-grow-1">
+              This project tackles semantic segmentation of high-resolution satellite imagery using UNet and VGG19-UNet to accurately classify six land covers including vegetation, water, buildings, lands and roads. Demonstrated a full end-to-end pipeline from data preprocessing to model evaluation.
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="https://pub.aimind.so/harnessing-u-net-transfer-learning-for-satellite-image-segmentation-9be693ac314a" class="btn btn-primary btn-sm">Blog Post</a>
+              <a href="https://github.com/Charu-Agarwal-01/U-Net-and-Transfer-Learning-for-Satellite-Image-Segmentation" class="btn btn-outline-secondary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/projects/time.png" class="card-img-top project-img" alt="Project 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Energy Demand Forecasting - Time Series Forecasting</h5>
+            <p class="card-text flex-grow-1">
+              This project creates a system to predict hourly electricity usage on a monthly basis using historical data. I explored and compared three different models: ARIMA, Random Forest, and LSTM, and fine-tuned them to improve accuracy. The best-performing model was then used to create a Streamlit web application, making the predictions easy for anyone to access and use.
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="https://pub.aimind.so/from-data-to-deployment-energy-demand-forecasting-made-simple-d8c889bbf267" class="btn btn-primary btn-sm">Blog Post</a>
+              <a href="https://github.com/Charu-Agarwal-01/Electricity-Demand-Forecasting-Time-Series-Analysis" class="btn btn-outline-secondary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/projects/product analysis.jpg" class="card-img-top project-img" alt="Project 3">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Sales, Customers and Product Analysis - SQL and PowerBI</h5>
+            <p class="card-text flex-grow-1">
+            This project focuses on building a modern data warehouse to generate actionable business insights. I used SQL for the full data lifecycle, from cleaning and transforming raw data to creating a structured database. These validated insights were then presented through interactive Power BI dashboards to drive data-informed decisions.
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="https://app.powerbi.com/groups/me/reports/8d9cc8c2-2b5c-4574-a75b-3731b30920a5/c3502c14062e0da0da02?experience=power-bi" class="btn btn-primary btn-sm">Dashboard</a>
+              <a href="https://github.com/Charu-Agarwal-01/Sales-and-Customer-Analysis-SQL-and-PowerBI" class="btn btn-outline-secondary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End Row -->
+  </div>
+</section>
+<!-- ===== End Projects Section ===== -->
+
+<!-- ===== Skills Section ===== -->
+<section id="skills" class="py-5 text-center">
+  <div class="container">
+    <!-- Section Heading -->
+    <h2 class="h1 fw-bold mb-5">Skills</h2>
+
+    <!-- Skills Cards Row -->
+    <div class="row g-4">
+
+      <!-- Skill 1 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/skills/image.png" class="card-img-top mx-auto mt-3" alt="Python" style="width:80px; height:80px; object-fit:contain;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Python</h5>
+            <!--<p class="card-text flex-grow-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique.
+            </p>-->
+          </div>
+        </div>
+      </div>
+  
+
+      <!-- Skill 5 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/skills/R.jpg" class="card-img-top mx-auto mt-3" alt="Data Visualization" style="width:80px; height:80px; object-fit:contain;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Data Visualisation</h5>
+           
+            <!--<a href="#" class="btn btn-outline-primary btn-sm mt-auto">Link to course or bootcamp</a>-->
+          </div>
+        </div>
+      </div> 
+
+
+       <!-- Skill 4 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/skills/sql.png" class="card-img-top mx-auto mt-3" alt="Data Visualization" style="width:80px; height:80px; object-fit:contain;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">SQL</h5>
+            
+            <!--<a href="#" class="btn btn-outline-primary btn-sm mt-auto">Link to course or bootcamp</a>-->
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Skill 3 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/skills/stats.jpg" class="card-img-top mx-auto mt-3" alt="Statistics" style="width:80px; height:80px; object-fit:contain;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Statistics</h5>
+           
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Skill 3 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/skills/clean.jpg" class="card-img-top mx-auto mt-3" alt="Data Cleaning" style="width:80px; height:80px; object-fit:contain;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Data Cleaning and Wrangling</h5>
+          
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/skills/ML.jpg" class="card-img-top mx-auto mt-3" alt="Machine Learning" style="width:80px; height:80px; object-fit:contain;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Machine Learning</h5>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Skill 6 -->
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/skills/deep.jpg" class="card-img-top mx-auto mt-3" alt="Deep learning" style="width:80px; height:80px; object-fit:contain;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Deep Learning</h5>
+            
+            <!--<a href="#" class="btn btn-outline-primary btn-sm mt-auto">Link to course or bootcamp</a>-->
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End Row -->
+  </div>
+</section>
+<!-- ===== End Skills Section ===== -->
+
+
+
+
+
+ <!-- ===== Certifications Section ===== -->
+<section id="projects" class="py-5 text-center">
+  <div class="container">
+    <!-- Section Heading -->
+    <h2 class="h1 fw-bold mb-5">Certifications</h2>
+
+    <!-- Project Cards Row -->
+    <div class="row g-4">
+      
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+        <img src="images/certification/IMARTICUS.png" class="card-img-top project-img" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Post Graduate Program in Data Science and Analytics</h5>
+            <p class="card-text flex-grow-1">
+              
+            </p>
+        
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/certification/IBM-python.png" class="card-img-top project-img" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Data Analysis with Python - IBM</h5>
+          
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/certification/iirs.png" class="card-img-top project-img" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">AI/ML for Geodata Analysis - IIRS, ISRO</h5>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/certification/iitg.png" class="card-img-top project-img" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Summer Analytics Course 2024, IIT Guwahati</h5>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <img src="images/certification/pythin-ai.png" class="card-img-top project-img" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Python for Data Science, AI and Development </h5>
+
+            
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- End Row -->
+  </div>
+</section>
+<!-- ===== End CErtifications Section ===== -->
+
+
+
+<!-- ===== Contact Me Section ===== -->
+<section id="contact" class="py-5 text-center bg-dark text-white">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <h2 class="h1 fw-bold mb-5">Contact Me</h2>
+
+    <!-- Contact Info -->
+    <div class="row mb-4">
+      <div class="col-md-6 mb-3 mb-md-0 d-flex justify-content-center align-items-center">
+        <i class="bi bi-envelope-fill me-2 fs-4"></i>
+        <span>agarwalcharu2001@gmail.com</span>
+      </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <i class="bi bi-telephone-fill me-2 fs-4"></i>
+        <span>+91 9001099245</span>
+      </div>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="https://www.linkedin.com/in/charu-agarwal-99b8851a9" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn">
+        <img src="icons/linkedin.jpg" alt="LinkedIn" style="width:24px; height:24px;">
+      </a>
+
+      <a href="https://github.com/Charu-Agarwal-01" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+        <img src="icons/git.jpg" alt="GitHub" style="width:24px; height:24px;">
+      </a>
+      <a href="https://medium.com/@agarwalcharu2001" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Medium">
+        <img src="icons/medium.jpg" alt="Medium" style="width:24px; height:24px;">
+      </a>
+
+    </div>
+
+  </div>
+</section>
+<!-- ===== End Contact Me Section ===== -->
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
